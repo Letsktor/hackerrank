@@ -57,8 +57,14 @@ Roll numbers of students who have at least one subscription:
  and . Roll numbers:  and  are in both sets so they are only counted once.
 Hence, the total is  students.
 """
+#n=int(input())
+#li1=input().split()
+#m=int(input())
+#li2=input().split()
+#print(len(set(li1+li2)))
+
 n=int(input())
-li1=input().split()
+se1=set(input().split())
 m=int(input())
-li2=input().split()
-print(len(set(li1+li2)))
+se2=set(input().split())
+print(len(se1.union(se2)))
